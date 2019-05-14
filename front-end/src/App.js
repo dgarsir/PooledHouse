@@ -17,7 +17,7 @@ import {Navbar,Nav, Form,FormControl,Button,ButtonToolbar,ButtonGroup,DropdownBu
 //aws imports
 import Amplify, { API, graphqlOperation, Auth } from 'aws-amplify';
 import awsmobile from './aws-exports';
-import { withAuthenticator, Connect } from 'aws-amplify-react';
+import { withAuthenticator, Connect, Authenticator } from 'aws-amplify-react';
 import aws_config from './aws-exports';
 
 //graphql related imports
@@ -273,6 +273,12 @@ class App extends Component {
           )
         }}
         </Connect>
+      )
+
+      const logoHeader = (
+        <div>
+        <img src={ logo }></img>
+        </div>
       )
 
     let multiView = '';

@@ -24,7 +24,7 @@ export const listTipEntrys = `query ListTipEntrys(
   $limit: Int
   $nextToken: String
 ) {
-  listTipEntrys(filter: $filter, limit: $limit, nextToken: $nextToken) {
+  listTipEntrys(filter: $filter, limit: 1000, nextToken: $nextToken) {
     items {
       id
       user

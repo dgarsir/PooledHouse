@@ -105,7 +105,6 @@ class Map extends React.Component {
                       <option>All</option>
                       <option>Bartender</option>
                       <option>Server</option>
-                      <option>Host</option>
                       <option>Busser</option>
                       <option>Other</option>
                     </Form.Control>
