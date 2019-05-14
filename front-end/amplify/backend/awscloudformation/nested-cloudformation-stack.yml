@@ -83,7 +83,7 @@
 			"Properties": {
 				"TemplateURL": "https://s3.amazonaws.com/front-end-20190411124924-deployment/amplify-cfn-templates/hosting/template.json",
 				"Parameters": {
-					"bucketName": "front-end-20190502100445-hostingbucket",
+					"bucketName": "front-end-20190514013450-hostingbucket",
 					"env": "phdev"
 				}
 			}
@@ -167,7 +167,7 @@
 						]
 					},
 					"S3DeploymentBucket": "front-end-20190411124924-deployment",
-					"S3DeploymentRootKey": "amplify-appsync-files/a36c74f60cd35b245ad79826e50f31c1943b9604",
+					"S3DeploymentRootKey": "amplify-appsync-files/b3c49d86e4de23931572f1f52d88fbe9289e9b54",
 					"env": "phdev"
 				}
 			}
